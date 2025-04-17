@@ -1,7 +1,8 @@
 {
   "name": "@djuno/rpc-sdk",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Djuno RPC sdk for js projects",
   "type": "module",
   "main": "./dist/index.esm.js",
   "module": "./dist/index.esm.js",
@@ -14,6 +15,16 @@
       "default": "./dist/index.esm.js"
     }
   },
+  "keywords": [
+    "djuno",
+    "RPC",
+    "sdk"
+  ],
+  "author": "Djuno Ltd (Ansar Mirzayi) <ansar@djuno.io>",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "dependencies": {
     "@solana/web3.js": "^1.98.0",
     "cross-fetch": "^4.1.0",
